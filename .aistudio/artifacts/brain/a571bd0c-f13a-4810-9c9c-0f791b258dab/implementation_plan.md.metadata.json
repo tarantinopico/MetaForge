@@ -1,0 +1,6 @@
+{
+  "summary":  "Detailní a realistický implementační plán aplikace MetaForge (cz.metaforge.app) pro Android v Jetpack Compose. Zahrnuje kompletní 12-bodovou specifikaci: schopnosti formátů, bezpečnostní model pracovních kopií, výběr ověřených knihoven, AMOLED UI design, architekturu, CI/CD pipeline a akceptační kritéria.",
+  "updatedAt":  "2026-10-23T09:13:13.156341720Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

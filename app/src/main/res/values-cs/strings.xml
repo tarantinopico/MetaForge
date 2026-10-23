@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MetaForge</string>
+    <string name="tagline">Offline inspektor a čistič metadat</string>
+    <string name="privacy_guarantee">100% Lokální • Bez přístupu k síti • Důraz na soukromí</string>
+    
+    <!-- Home Screen -->
+    <string name="select_file">Vybrat soubor</string>
+    <string name="select_file_desc">Vyberte fotografii, audio nebo video k analýze</string>
+    <string name="offline_badge">Lokální zpracování</string>
+    <string name="no_cloud_badge">Žádný cloudový upload</string>
+    <string name="no_account_badge">Bez registrace a účtu</string>
+    <string name="recent_analysis">Nedávno analyzováno</string>
+    <string name="capabilities_header">Podporované formáty</string>
+    
+    <!-- File Details / Inspector -->
+    <string name="file_details">Podrobnosti o souboru</string>
+    <string name="detected_format">Zjištěný formát</string>
+    <string name="declared_mime">Hlášený MIME typ</string>
+    <string name="file_size">Velikost souboru</string>
+    <string name="magic_signature">Magické bajty</string>
+    <string name="calculate_sha256">Spočítat SHA-256</string>
+    <string name="sha256_hash">Kontrolní součet SHA-256</string>
+    <string name="computing_hash">Počítám kontrolní součet…</string>
+    <string name="search_metadata_hint">Hledat tagy nebo hodnoty…</string>
+    <string name="toggle_raw_tags">Zobrazit technické názvy tagů</string>
+    <string name="export_json">Export do JSON</string>
+    <string name="export_text">Export do textu</string>
+    <string name="copied_to_clipboard">Zkopírováno do schránky</string>
+    
+    <!-- Filters / Tabs -->
+    <string name="filter_all">Vše</string>
+    <string name="filter_sensitive">Citlivé</string>
+    <string name="filter_tech">Technické</string>
+    <string name="filter_structure">Strukturální</string>
+    <string name="tag_count">Nalezeno %1$d tagů</string>
+    <string name="sensitive_badge">Citlivý údaj</string>
+    <string name="readonly_badge">Pouze ke čtení</string>
+    
+    <!-- Actions -->
+    <string name="action_sanitize">Vyčistit metadata</string>
+    <string name="action_edit">Upravit hodnoty</string>
+    <string name="action_view_diff">Zobrazit změny</string>
+    <string name="action_save_copy">Uložit jako…</string>
+    <string name="action_share">Sdílet vyčištěnou kopii</string>
+    <string name="action_inspect_another">Zkoumat další soubor</string>
+    
+    <!-- Sanitization Profiles -->
+    <string name="sanitize_title">Profily čištění</string>
+    <string name="profile_remove_gps">Odstranit polohu (GPS)</string>
+    <string name="profile_remove_gps_desc">Vymaže zeměpisnou šířku, délku, nadmořskou výšku, GPS čas a souřadnice.</string>
+    <string name="profile_remove_personal">Odstranit osobní a autorská data</string>
+    <string name="profile_remove_personal_desc">Vymaže jméno autora, copyright, model zařízení, sériová čísla a software.</string>
+    <string name="profile_max_clean">Maximální bezpečné vyčištění</string>
+    <string name="profile_max_clean_desc">Odstraní všechna volitelná popisná metadata. Zachová strukturální parametry.</string>
+    <string name="profile_custom">Vlastní výběr polí</string>
+    <string name="profile_custom_desc">Vyberte konkrétní tagy pro úpravu nebo smazání.</string>
+    <string name="preview_changes">Přehled změn</string>
+    
+    <!-- Diff / Result Screen -->
+    <string name="diff_title">Náhled úprav</string>
+    <string name="diff_summary">Původní vs Výsledné</string>
+    <string name="diff_removed">[Odstraněno]</string>
+    <string name="diff_modified">[Změněno]</string>
+    <string name="diff_kept">[Ponecháno]</string>
+    <string name="apply_and_verify">Aplikovat a ověřit kopii</string>
+    <string name="result_title">Výsledek čištění</string>
+    <string name="result_verified">Ověření proběhlo úspěšně</string>
+    <string name="result_verified_desc">Výsledný soubor byl nezávisle znovu analyzován. Požadovaná metadata byla úspěšně odstraněna.</string>
+    <string name="original_safety_note">Váš původní soubor nebyl nijak modifikován a zůstává beze změny.</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Nastavení</string>
+    <string name="theme_setting">Vzhled</string>
+    <string name="theme_amoled">Čistá AMOLED černá (#000000)</string>
+    <string name="theme_dark">Tmavý režim</string>
+    <string name="theme_light">Světlý režim</string>
+    <string name="theme_system">Podle systému</string>
+    <string name="cache_management">Dočasná mezipaměť</string>
+    <string name="clear_cache">Vymazat pracovní mezipaměť</string>
+    <string name="clear_cache_desc">Smaže dočasné pracovní kopie ze soukromého prostoru aplikace</string>
+    <string name="cache_cleared">Pracovní mezipaměť byla vyčištěna</string>
+    <string name="support_matrix_title">Matice podpory formátů</string>
+    <string name="licenses_title">Licence otevřeného softwaru</string>
+    
+    <!-- Formats -->
+    <string name="format_jpeg">JPEG obrázek</string>
+    <string name="format_png">PNG obrázek</string>
+    <string name="format_webp">WebP obrázek</string>
+    <string name="format_mp3">MP3 zvuk</string>
+    <string name="format_flac">FLAC bezztrátový zvuk</string>
+    <string name="format_mp4">MP4 video / audio</string>
+    <string name="format_unknown">Neznámý / binární soubor</string>
+    
+    <!-- Messages & Errors -->
+    <string name="error_file_read">Nepodařilo se načíst soubor z úložiště</string>
+    <string name="error_file_processing">Chyba během zpracování metadat</string>
+    <string name="error_file_save">Nepodařilo se uložit výsledný soubor</string>
+    <string name="notice_unknown_format">Tento formát byl rozpoznán pouze podle signatury. Inspekce a úprava metadat pro něj nejsou podporovány.</string>
+</resources>

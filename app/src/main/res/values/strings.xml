@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MetaForge</string>
+    <string name="tagline">Offline Metadata Inspector &amp; Sanitizer</string>
+    <string name="privacy_guarantee">100% Local • Zero Network Access • Privacy First</string>
+    
+    <!-- Home Screen -->
+    <string name="select_file">Select File</string>
+    <string name="select_file_desc">Choose an image, audio track, or video to inspect</string>
+    <string name="offline_badge">Local Processing</string>
+    <string name="no_cloud_badge">No Cloud Upload</string>
+    <string name="no_account_badge">No Account Required</string>
+    <string name="recent_analysis">Recent Inspection</string>
+    <string name="capabilities_header">Supported Formats</string>
+    
+    <!-- File Details / Inspector -->
+    <string name="file_details">File Details</string>
+    <string name="detected_format">Detected Format</string>
+    <string name="declared_mime">Reported MIME</string>
+    <string name="file_size">File Size</string>
+    <string name="magic_signature">Magic Bytes</string>
+    <string name="calculate_sha256">Calculate SHA-256</string>
+    <string name="sha256_hash">SHA-256 Hash</string>
+    <string name="computing_hash">Computing checksum…</string>
+    <string name="search_metadata_hint">Search tags or values…</string>
+    <string name="toggle_raw_tags">Show Raw Tag Names</string>
+    <string name="export_json">Export JSON</string>
+    <string name="export_text">Export Text</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    
+    <!-- Filters / Tabs -->
+    <string name="filter_all">All</string>
+    <string name="filter_sensitive">Sensitive</string>
+    <string name="filter_tech">Technical</string>
+    <string name="filter_structure">Structural</string>
+    <string name="tag_count">%1$d tags found</string>
+    <string name="sensitive_badge">Sensitive Data</string>
+    <string name="readonly_badge">Read-only</string>
+    
+    <!-- Actions -->
+    <string name="action_sanitize">Clean Metadata</string>
+    <string name="action_edit">Edit Values</string>
+    <string name="action_view_diff">View Changes</string>
+    <string name="action_save_copy">Save As…</string>
+    <string name="action_share">Share Clean Copy</string>
+    <string name="action_inspect_another">Inspect Another File</string>
+    
+    <!-- Sanitization Profiles -->
+    <string name="sanitize_title">Sanitization Profiles</string>
+    <string name="profile_remove_gps">Remove Location (GPS)</string>
+    <string name="profile_remove_gps_desc">Strips latitude, longitude, altitude, GPS timestamps, and coordinates.</string>
+    <string name="profile_remove_personal">Remove Personal &amp; Author Info</string>
+    <string name="profile_remove_personal_desc">Strips artist, author, copyright, device model, serials, and software tags.</string>
+    <string name="profile_max_clean">Maximum Safe Clean</string>
+    <string name="profile_max_clean_desc">Strips all optional descriptive metadata. Retains structural format data.</string>
+    <string name="profile_custom">Custom Field Selection</string>
+    <string name="profile_custom_desc">Select individual tags to modify or remove.</string>
+    <string name="preview_changes">Preview Changes</string>
+    
+    <!-- Diff / Result Screen -->
+    <string name="diff_title">Changes Preview</string>
+    <string name="diff_summary">Original vs Output</string>
+    <string name="diff_removed">[Removed]</string>
+    <string name="diff_modified">[Modified]</string>
+    <string name="diff_kept">[Unchanged]</string>
+    <string name="apply_and_verify">Apply &amp; Verify Copy</string>
+    <string name="result_title">Sanitization Result</string>
+    <string name="result_verified">Verification Successful</string>
+    <string name="result_verified_desc">The sanitized copy was independently re-read. Target metadata was successfully verified.</string>
+    <string name="original_safety_note">Your original file was never modified and remains untouched.</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="theme_setting">Appearance</string>
+    <string name="theme_amoled">Pure AMOLED Black (#000000)</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_system">Follow System</string>
+    <string name="cache_management">Temporary Cache</string>
+    <string name="clear_cache">Clear Working Cache</string>
+    <string name="clear_cache_desc">Deletes temporary working copies from app sandbox</string>
+    <string name="cache_cleared">Working cache cleared</string>
+    <string name="support_matrix_title">Format Support Matrix</string>
+    <string name="licenses_title">Open Source Licenses</string>
+    
+    <!-- Formats -->
+    <string name="format_jpeg">JPEG Image</string>
+    <string name="format_png">PNG Image</string>
+    <string name="format_webp">WebP Image</string>
+    <string name="format_mp3">MP3 Audio</string>
+    <string name="format_flac">FLAC Audio</string>
+    <string name="format_mp4">MP4 Video / Audio</string>
+    <string name="format_unknown">Unknown / Binary File</string>
+    
+    <!-- Messages & Errors -->
+    <string name="error_file_read">Failed to read file from storage provider</string>
+    <string name="error_file_processing">Error during sanitization processing</string>
+    <string name="error_file_save">Failed to save output file</string>
+    <string name="notice_unknown_format">This format is recognized by signature only. Metadata inspection and editing are not supported for this type.</string>
+</resources>

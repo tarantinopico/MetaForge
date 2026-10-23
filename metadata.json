@@ -1,0 +1,6 @@
+{
+  "name": "MetaForge",
+  "description": "Offline Metadata Inspector & Sanitizer for images, audio, and video.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
