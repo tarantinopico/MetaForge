@@ -50,14 +50,19 @@ Aplikace funguje **100% lokálně, v offline režimu, bez nutnosti účtu, přip
 3. Zvolte konfiguraci `app` a spusťte na emulátoru nebo fyzickém zařízení.
 
 ### Lokální build příkazy (terminál)
-Spuštění unit a Robolectric testů:
+Obnovení debug keystoru (pokud klonujete nový čistý repozitář):
 ```bash
-gradle testDebugUnitTest
+base64 -d debug.keystore.base64 > debug.keystore
+```
+
+Spuštění unit testů:
+```bash
+./gradlew testDebugUnitTest
 ```
 
 Sestavení instalovatelného Debug APK:
 ```bash
-gradle assembleDebug
+./gradlew assembleDebug
 ```
 Výsledné APK naleznete v cestě:
 `app/build/outputs/apk/debug/app-debug.apk`
